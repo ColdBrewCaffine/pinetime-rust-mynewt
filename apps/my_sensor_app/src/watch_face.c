@@ -28,7 +28,7 @@ int create_watch_face(void) {
 
     lv_obj_t *label = lv_label_create(lv_scr_act(), NULL);       //  Add a label to the button
     lv_label_set_recolor(label, true);                          // Allow for text recolor
-    lv_label_set_text(label, "#6f6f6f LVGL7#");                //  Set the label text
+    lv_label_set_text(label, "#ff0000 LVGL7#");                //  Set the label text
     lv_label_set_align(label, LV_LABEL_ALIGN_CENTER);         // Position in center
     
     return 0;
